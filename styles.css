@@ -481,6 +481,28 @@ a:focus-visible, button:focus-visible{
 }
 .ep__intro em{ color: var(--bone); font-style: italic; }
 
+.ep__concept{
+  max-width: 58ch;
+  margin-top: 1.6rem;
+  padding-top: 1.6rem;
+  border-top: 1px solid var(--line);
+}
+.ep__concept p{
+  color: var(--bone-dim);
+  font-size: 1.02rem;
+  line-height: 1.85;
+  margin-bottom: 1.1rem;
+}
+.ep__concept p:last-child{ margin-bottom: 0; }
+.ep__concept em{ color: var(--bone); font-style: italic; }
+.ep__concept-close{
+  font-family: var(--display);
+  font-style: italic;
+  font-size: 1.15rem;
+  color: var(--bone);
+}
+.ep__concept-close em{ color: var(--blood-bright); }
+
 .ep__formats{
   display: grid;
   grid-template-columns: 1.2fr 1fr 1fr;
