@@ -505,7 +505,7 @@ a:focus-visible, button:focus-visible{
 
 .ep__formats{
   display: grid;
-  grid-template-columns: 1.2fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
   gap: clamp(1rem, 2.5vw, 1.75rem);
   margin-top: clamp(2.5rem, 5vw, 4rem);
 }
@@ -517,7 +517,7 @@ a:focus-visible, button:focus-visible{
 }
 .ep__format img{
   width: 100%;
-  aspect-ratio: 4/3;
+  aspect-ratio: 1/1;
   object-fit: cover;
   transition: transform .6s var(--ease);
 }
