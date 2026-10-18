@@ -44,7 +44,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   // Reveal on scroll
   const revealTargets = document.querySelectorAll(
-    '.sobre__col, .timeline__item, .ep__inner > *, .repertorio__grid li, .credits-card, .letras__inner > *'
+    '.sobre__col, .timeline__item, .ep__inner > *, .repertorio__grid li, .credits-card, .letras__inner > *, .downloads__inner > *, .download'
   );
   revealTargets.forEach(el => el.classList.add('reveal'));
 

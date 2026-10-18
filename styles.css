@@ -764,3 +764,41 @@ a:focus-visible, button:focus-visible{
   .ep__formats{ grid-template-columns: 1fr; }
   .ep__formats .ep__format:first-child{ grid-column: auto; }
 }
+
+/* ============================================
+   Downloads
+   ============================================ */
+.downloads{
+  background: var(--bone);
+  color: var(--void);
+  padding: clamp(4.5rem,10vw,7.5rem) clamp(1.25rem,5vw,3rem);
+}
+.downloads__inner{ max-width: 46rem; margin: 0 auto; }
+.downloads__intro{
+  margin-top: 1.2rem;
+  color: #362b26;
+  max-width: 55ch;
+}
+.downloads__intro em{ color: var(--blood); font-style: italic; }
+.downloads__list{ margin-top: clamp(2rem, 4vw, 2.8rem); border-top: 1px solid rgba(10,9,8,0.15); }
+.download{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.2rem;
+  padding: 1.3rem 0;
+  border-bottom: 1px solid rgba(10,9,8,0.15);
+}
+.download__info{ display: flex; flex-direction: column; gap: 0.3rem; min-width: 0; }
+.download__name{ font-family: var(--display); font-style: italic; font-size: 1.2rem; }
+.download__meta{
+  font-family: var(--mono);
+  font-size: 0.68rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #6b5d55;
+}
+.download .btn{ flex-shrink: 0; }
+@media (max-width: 560px){
+  .download{ flex-direction: column; align-items: flex-start; }
+}

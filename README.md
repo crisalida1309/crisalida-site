@@ -39,3 +39,7 @@ assets/img/   → fotos e artes do EP
 ## O que falta você adicionar quando tiver
 - Link do Spotify do EP "Nekyialismo"
 - Datas de próximos shows (posso montar uma seção de agenda quando tiver confirmado)
+
+## Aba Downloads
+- Coloque os arquivos novos em `assets/downloads/` (sem acentos nem espaços no nome).
+- Em `index.html`, na seção `<!-- DOWNLOADS -->`, copie um bloco `<li class="download">…</li>` e troque o nome, a descrição e o caminho do arquivo.
